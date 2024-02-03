@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu {
+    background-image: url(/imgs/maos-tatuadas-escuras-projetam-uma-decoracao-assustadora-de-halloween-gerada-por-ia.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1080px;
+    height: 720px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);
+    
+}
+.menu .nav__menu {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    background-color: #000000d5;
+}
+.menu .nav__menu .nav__logo {
+    border-radius: 100%;
+    height: 100px;
+    padding: 15px;
+    margin-left: 100px;
+}
+.menu .nav__menu .list__menu {
+    background-color: transparent;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    width: 25%;
+    height: 25px;
+    justify-content: space-between;
+    margin-right: 350px;
+    
+
+    
+}
+.menu .nav__menu .list__menu li a {
+    text-decoration: none;
+    color: #e6e1e1;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}.menu .nav__menu .list__menu li a:hover {
+    text-decoration: underline;
+    transition-delay: 1s;
+
+}
+
+
+.cabecalho {
+    background-color: transparent;
+    height: 569px;
+    padding-left: 100px;
+    padding-top: 100px;
+    
+}
+.cabecalho .cabecalho__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+    height: 370px;
+    width: 500px;
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    color: #878C80;
+    border-radius: 50px 0 50px 50px;
+    margin-top: 150px;
+    align-items: center;
+    border: 1px solid #0d0d0dbb;
+    
+}
+.cabecalho .cabecalho__container h1 {
+    font-size: 50px;
+    color: #73604F;
+}
+.cabecalho .cabecalho__container .cabecalho__titulo__strong{
+    color: #e6e1e1;
+}
+.cabecalho .cabecalho__container h3 {
+    font-weight: 300;
+    text-align: center;
+    color: #e6e1e1;
+}
+.cabecalho .cabecalho__container .cabecalho__btn {
+    border-radius: 25px;
+    width: 50%;
+    height: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #878C80;;
+    background-color: #0000004b;
+    color: #73604F; 
+    cursor: pointer;
+
+}
+.cabecalho .cabecalho__container .cabecalho__btn:hover {
+    background-color: #ffffff70;
+    transition: 1s;
+    color: #0D0B0C;
+}
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    padding: 30px 50px;
+   
+    
+
+}
+.sobre .sobre__container {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 750px;
+    padding: 15px;
+
+}
+.sobre .sobre__container .sobre__text {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sobre .sobre__container .sobre__text h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #16171D;
+}
+.sobre .sobre__container .sobre__text p {
+    text-align:  center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #16171D;
+}
+.sobre .sobre__container .sobre__tatuador {
+    display: flex;
+    height: 500px;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+.sobre .sobre__container .sobre__tatuador .sobre__img__tatuador {
+    height: 503px;
+    width: 500px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.178);
+}
+.sobre__highlights {
+    width:433px;
+}
+.sobre__highlights__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width:75%;
+   
+}
+.sobre__highlights__btns__icone {
+    height: 20px;
+}
+.sobre__highlights__btns__btn {
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+.sobre__highlights__text {
+    width: 75%;
+    padding: 15px;
+    height: 200px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.sobre__highlights__redessociais {
+    width: 50%;
+}
+.sobre__highlights__redessociais ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+    gap: 20%;
+    padding: 10px 0 0 10px;
+
+}
+.sobre__highlights__redessociais ul li {
+    height: 50px;
+}
+.sobre__highlights__redessociais ul li a img {
+    height: 30px;
+}
+.sobre__highlights__redessociais ul li a img:hover {
+   transform: scale(1.5);
+    transition: 0.3s all ease-in-out;
+}
